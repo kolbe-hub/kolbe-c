@@ -2,7 +2,7 @@
 using namespace std;
 
 /**
- * 2.3 å°è£…
+ * 2.3 ·â×°
  */
 class Student {
 public:
@@ -18,14 +18,14 @@ private:
 };
 
 void Student::study() {
-    cout << "å­¦ä¹ C++" << endl;
+    cout << "Ñ§Ï°C++" << endl;
 }
 void Student::exam() {
-    cout << "C++è€ƒè¯•æˆç»©100åˆ†" << endl;
+    cout << "C++¿¼ÊÔ³É¼¨100·Ö" << endl;
 }
 void Student::setAge(int age) {
     if (age < 0 || age > 100) {
-        cout << "_name" << "å¹´é¾„è¾“å…¥é”™è¯¯" << endl;
+        cout << "_name" << "ÄêÁäÊäÈë´íÎó" << endl;
         _age = 0;
     } else {
         _age = age;

@@ -2,7 +2,7 @@
 using namespace std;
 
 /**
- * 2.5 æž„é€ å‡½æ•°
+ * 2.5 ¹¹Ôìº¯Êý
  */
 class Clock {
 public:
@@ -16,14 +16,14 @@ private:
 };
 
 Clock::Clock() {
-    cout << "è°ƒç”¨æ— å‚æž„é€ å‡½æ•°" << endl;
+    cout << "µ÷ÓÃÎÞ²Î¹¹Ôìº¯Êý" << endl;
     _hour = 0;
     _minute = 0;
     _second = 0;
 }
 
 Clock::Clock(int hour, int minute, int second) {
-    cout << "è°ƒç”¨ä¸‰ä¸ªå‚æ•°çš„æž„é€ å‡½æ•°" << endl;
+    cout << "µ÷ÓÃÈý¸ö²ÎÊýµÄ¹¹Ôìº¯Êý" << endl;
     _hour = hour;
     _minute = minute;
     _second = second;
@@ -32,6 +32,7 @@ Clock::Clock(int hour, int minute, int second) {
 void Clock::showTime() {
     cout << "current time:" << _hour << ":" << _minute << ":" << _second << endl;
 }
+/*
 
 int main() {
     Clock clock(1, 1, 10);
@@ -39,3 +40,4 @@ int main() {
     return 0;
 }
 
+*/
