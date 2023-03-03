@@ -21,9 +21,11 @@ void StaticMember::sayHello() {
     cout << "total member count " << memberCount << endl;
 }
 int StaticMember::memberCount = 0;
-int main() {
+
+/*int main() {
     StaticMember staticMember1("kolbe");
     StaticMember staticMember2("henry");
     cout << StaticMember::memberCount << endl;
     staticMember1.sayHello();
-}
+}*/
+
