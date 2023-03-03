@@ -4,7 +4,7 @@
 using namespace std;
 
 /**
- * 2.6 析构函数
+ * 2.6
  */
 class Rabbit {
 public:
@@ -16,7 +16,6 @@ private:
     char* _food;
 };
 Rabbit::Rabbit(string name, const char* food) {
-    cout << "调用构造函数" << endl;
     _name = name;
     _food = new char[50];
     memset(_food, 0, 50);
@@ -24,10 +23,8 @@ Rabbit::Rabbit(string name, const char* food) {
 }
 
 void Rabbit::eat() {
-    cout << _name << "is eating " << _food << endl;
 }
 Rabbit::~Rabbit() {
-    cout << "调用析构函数， 析构" << _name << endl;
     if (_food != NULL) {
         delete []_food;
     }

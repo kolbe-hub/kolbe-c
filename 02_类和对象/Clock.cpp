@@ -2,7 +2,7 @@
 using namespace std;
 
 /**
- * 2.5 构造函数
+ * 2.5
  */
 class Clock {
 public:
@@ -16,14 +16,12 @@ private:
 };
 
 Clock::Clock() {
-    cout << "调用无参构造函数" << endl;
     _hour = 0;
     _minute = 0;
     _second = 0;
 }
 
 Clock::Clock(int hour, int minute, int second) {
-    cout << "调用三个参数的构造函数" << endl;
     _hour = hour;
     _minute = minute;
     _second = second;

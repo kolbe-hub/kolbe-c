@@ -2,7 +2,7 @@
 using namespace std;
 
 /**
- * 2.3 封装
+ * 2.3
  */
 class Student {
 public:
@@ -18,14 +18,11 @@ private:
 };
 
 void Student::study() {
-    cout << "学习C++" << endl;
 }
 void Student::exam() {
-    cout << "C++考试成绩100分" << endl;
 }
 void Student::setAge(int age) {
     if (age < 0 || age > 100) {
-        cout << "_name" << "年龄输入错误" << endl;
         _age = 0;
     } else {
         _age = age;
