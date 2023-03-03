@@ -2,7 +2,7 @@
 using namespace std;
 
 /**
- * 2.3
+ * 2.3 封装
  */
 class Student {
 public:

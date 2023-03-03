@@ -4,7 +4,7 @@
 using namespace std;
 
 /**
- * 2.6
+ * 2.6 Îö¹¹º¯Êı
  */
 class Rabbit {
 public:

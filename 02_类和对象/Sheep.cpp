@@ -3,7 +3,7 @@
 using namespace std;
 
 /**
- * 2.7
+ * 2.7 拷贝构造函数
  */
 class Sheep {
 public:
@@ -29,6 +29,7 @@ Sheep::~Sheep() {
 void Sheep::show() {
     cout << _name << " " << _color << endl;
 }
+/*
 
 int main() {
     Sheep sheepA("Doly", "white");
@@ -38,4 +39,4 @@ int main() {
     cout << "Sheep B:";
     sheepB.show();
     return 0;
-}
+}*/

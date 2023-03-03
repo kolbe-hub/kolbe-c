@@ -2,7 +2,7 @@
 using namespace std;
 
 /**
- * 2.5
+ * 2.5 构造函数
  */
 class Clock {
 public:
