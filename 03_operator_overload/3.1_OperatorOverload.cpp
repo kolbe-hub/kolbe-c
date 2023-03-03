@@ -4,6 +4,8 @@ using namespace std;
 
 /**
  * 3.1 操作符重载
+ * 1）只能重载C++中已有的运算符
+ * 2）不可重载的操作【::】、【.】、【.*】、【?:】、【sizeof】、【typeid】
  */
 class A {
 private:
