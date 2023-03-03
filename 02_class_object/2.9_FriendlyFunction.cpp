@@ -43,10 +43,11 @@ void getArea(Circle &circle) {
     cout << "圆的半径是：" << circle._radius << endl;
     cout << "圆的面积是：" << circle.PI * circle._radius * circle._radius << endl;
 }
+/*
 int main() {
     Circle circle(10);
     getArea(circle);
     A a;
     a.getCircle(circle);
     return 0;
-}
+}*/
