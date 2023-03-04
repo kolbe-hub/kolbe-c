@@ -15,9 +15,11 @@ public:
         return num*num;
     }
 };
+/*
 int main() {
     Show s;
     s("abcd");
     cout << s(4) << endl;
     return 0;
 }
+*/
