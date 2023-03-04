@@ -23,14 +23,17 @@ public:
         cout << "id: " << _id << ", name: " << _name << endl;
     }
 };
+/*
 int main() {
     Student student("10001", "kolbe");
     cout << "student:";
     student.show();
-    /**
+    */
+/**
      * 调用类型转换函数
-     */
+     *//*
+
     char* ch = student;
     cout << ch << endl;
     return 0;
-}
+}*/
