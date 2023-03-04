@@ -41,11 +41,11 @@ char &Tag::operator[](int n) {
         return *(buf + n);
     }
 }
-int main() {
+/*int main() {
     Tag attribute(20);
     for (int i = 0; i < 20; i++) {
         attribute[i] = 65 + i;
     }
     attribute.show();
     return 0;
-}
+}*/
