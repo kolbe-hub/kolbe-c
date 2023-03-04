@@ -16,4 +16,4 @@ add_executable(kolbe_c
         03_operator_overload/3.1_OperatorOverload.cpp
         03_operator_overload/3.2_OperatorStream.cpp
         03_operator_overload/3.2_OperatorRelation.cpp
-        03_operator_overload/3.2_OperatorAssign.cpp 03_operator_overload/3.2_OperatorTag.cpp 03_operator_overload/3.3_OperatorCast.cpp 03_operator_overload/3.3_OperatorConstructorCast.cpp 03_operator_overload/3.4_OperatorFunction.cpp 03_operator_overload/3.5_OperatorSmartReference.cpp 04_inherit/Animal.cpp)
+        03_operator_overload/3.2_OperatorAssign.cpp 03_operator_overload/3.2_OperatorTag.cpp 03_operator_overload/3.3_OperatorCast.cpp 03_operator_overload/3.3_OperatorConstructorCast.cpp 03_operator_overload/3.4_OperatorFunction.cpp 03_operator_overload/3.5_OperatorSmartReference.cpp 04_inherit/4.1_Inherit.cpp)
