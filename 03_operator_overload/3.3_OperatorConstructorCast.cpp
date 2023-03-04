@@ -24,6 +24,7 @@ public:
         cout << "平面坐标：" << _x << "," << _y << endl;
     }
 };
+/*
 int main() {
     cout << "原始坐标" << endl;
     Point p (1,2);
@@ -34,4 +35,4 @@ int main() {
     p = s;
     p.show();
     return 0;
-}
+}*/
