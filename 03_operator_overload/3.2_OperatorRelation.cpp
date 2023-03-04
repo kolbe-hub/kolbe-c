@@ -22,9 +22,10 @@ bool operator==(Student& student1, Student& student2) {
     return student1._age == student2._age;
 }
 
+/*
 int main() {
     Student student1("kolbe", 1);
     Student student2("henry", 1);
     cout << "student1是否等于student2？: " << (student1 == student2 ? "是" : "否") << endl;
     return 0;
-}
+}*/

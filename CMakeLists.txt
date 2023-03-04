@@ -16,4 +16,4 @@ add_executable(kolbe_c
         03_operator_overload/3.1_OperatorOverload.cpp
         03_operator_overload/3.2_OperatorStream.cpp
         03_operator_overload/3.2_OperatorRelation.cpp
-        )
+        03_operator_overload/3.2_OperatorAssign.cpp 03_operator_overload/3.2_OperatorTag.cpp)

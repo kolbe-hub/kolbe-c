@@ -19,7 +19,7 @@ private:
 };
 Person::Person(string name, int age, string address) :
     _name(name), _age(age), _address(address) {
-    cout << "name:" << _name << endl;
+    cout << "_name:" << _name << endl;
     cout << "age:" << _age << endl;
     cout << "address:" << _address << endl;
 }

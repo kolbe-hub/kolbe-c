@@ -17,7 +17,7 @@ StaticMember::StaticMember(string name) {
     memberCount++;
 }
 void StaticMember::sayHello() {
-    cout << "hello, my name is " << _name << endl;
+    cout << "hello, my _name is " << _name << endl;
     cout << "total member count " << memberCount << endl;
 }
 int StaticMember::memberCount = 0;
