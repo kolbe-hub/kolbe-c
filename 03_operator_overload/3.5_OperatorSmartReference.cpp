@@ -82,6 +82,7 @@ private:
     Count *count;
 };
 
+/*
 int main() {
     Data *data1 = new Data("I Love China!");
     SmartPointer data2 = data1;
@@ -91,3 +92,4 @@ int main() {
     cout << "使用基类对象的指针数量：" << data2.disCount() << endl;
     return 0;
 }
+*/
