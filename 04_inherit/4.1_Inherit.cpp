@@ -73,6 +73,7 @@ public:
 };
 
 
+/*
 int main() {
     Cat cat("猫");
     cat.move();
@@ -83,4 +84,4 @@ int main() {
     // 此时父类的move()在子类中访问权限变成了protected，所以外界不可访问
     // dog.move();
     return 0;
-}
+}*/
