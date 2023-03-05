@@ -26,6 +26,7 @@ public:
     virtual ~Dog() { cout << "调用狗的析构函数" << endl; };
 };
 
+/*
 int main() {
     Animal *cat = new Cat();
     cat->speak();
@@ -37,4 +38,4 @@ int main() {
     // 编译报错，抽象类不允许新建对象
     // Animal animal;
     return 0;
-}
+}*/
