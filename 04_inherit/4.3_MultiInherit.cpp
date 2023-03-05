@@ -27,9 +27,10 @@ public:
     ~SofaBed() { cout << "沙发床析构函数" << endl;}
 };
 
+/*
 int main() {
     SofaBed sofaBed;
     // 当多继承有相同的方法时，需要使用 :: 的方式手动指定调用哪个方法
     sofaBed.Sofa::sit();
     sofaBed.sleep();
-}
+}*/
