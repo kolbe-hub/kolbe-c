@@ -35,6 +35,7 @@ public:
         cout << "沙发床材质：" << _wood << endl;
     }
 };
+/*
 int main() {
     SofaBed sofaBed(1.8, "梨木", 1.5, "檀木");
     sofaBed.getSize();
@@ -42,4 +43,4 @@ int main() {
     cout << sofaBed.Bed::_wood << endl;
     cout << sofaBed.Sofa::_wood << endl;
     return 0;
-}
+}*/
