@@ -7,6 +7,7 @@ T add(T t1, T t2) {
 }
 
 template int add<int>(int t1, int t2);
+/*
 int main() {
     // 输出76，因为'B'被转成了对应的ASCII码值
     cout << add<int>(10, 'B') << endl;
@@ -15,4 +16,4 @@ int main() {
     // 输出4，因为匹配了显示实例化
     cout << add<int>(1.2, 3.4) << endl;
     return 0;
-}
+}*/
