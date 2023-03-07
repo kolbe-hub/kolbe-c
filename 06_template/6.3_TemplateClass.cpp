@@ -22,6 +22,7 @@ public:
         cout << endl;
     }
 };
+/*
 int main() {
     char attr[] = {'a', 'b', 'c', 'd', 'e'};
     Array<char> a1(attr, 5);
@@ -31,4 +32,4 @@ int main() {
     Array<int> a2(intAttr, 10);
     a2.show();
     return 0;
-}
+}*/
