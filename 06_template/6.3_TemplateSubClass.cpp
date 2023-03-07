@@ -21,7 +21,7 @@ public:
     Derive(double a, double b, double c): num(c), Base<double>(a, b) {}
 };
 
+/*
 int main() {
     Derive(1,2,3);
-
-}
+}*/
