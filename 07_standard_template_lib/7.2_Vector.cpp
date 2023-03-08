@@ -2,6 +2,7 @@
 #include <vector>
 
 using namespace std;
+/*
 int main() {
     vector<int> v;
     v.reserve(10);
@@ -24,4 +25,4 @@ int main() {
     cout << "start of the vector: " << v.front() << endl;
     cout << "end of the vector: " << v.back() << endl;
     return 0;
-}
+}*/
