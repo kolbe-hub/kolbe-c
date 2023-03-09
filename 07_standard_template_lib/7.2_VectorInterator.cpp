@@ -3,6 +3,7 @@
 
 using namespace std;
 
+/*
 int main() {
     vector<int> c = {1,2,3};
     vector<int>::iterator pos;
@@ -19,4 +20,4 @@ int main() {
     }
 
     return 0;
-}
+}*/
