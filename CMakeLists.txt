@@ -13,4 +13,4 @@ include_directories(.)
 
 # 添加可执行文件
 add_executable(kolbe_c
-        01_hello_world/1.1_HelloWorld.cpp)
+        02_data_type/HelloWorld.c)
