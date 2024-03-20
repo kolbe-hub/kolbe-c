@@ -5,6 +5,6 @@
 int main()
 {
     int a = 1;
-    int* b = &a;
-    printf("%d", b);
+    char c = 9000;
+    printf("%d", c);
 }
